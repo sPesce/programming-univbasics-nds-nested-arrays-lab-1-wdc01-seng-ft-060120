@@ -44,7 +44,7 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   matrix.each.each {|n| puts n }
   matrix[row][column] = new_value
-  puts "test: ${matrix}" 
+  matrix.each.each {|n| puts n}
 end
 
 

@@ -42,9 +42,11 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
-  matrix.each.each {|n| puts n }
+    matrix.each.each {|n| puts n } #test
   matrix[row][column] = new_value
-  matrix.each.each {|n| puts n}
+    matrix.each.each {|n| puts n}   #test
+    
+    #something went wrong, tests failed here until
 end
 
 
